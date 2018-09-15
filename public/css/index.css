@@ -1,0 +1,104 @@
+body {
+	width: 100%;
+	height: 100%;
+	background: #343d46;  /* fallback for old browsers */
+	/*background: -webkit-linear-gradient(to right, #F2C94C, #F2994A); Chrome 10-25, Safari 5.1-6 */
+	/*background: linear-gradient(to right, #F2C94C, #F2994A); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@font-face
+{
+	font-family: 'CODE-Bold';
+	src: url('../font/CODE-Bold.ttf'),
+	url('../font/COD-Bold.eot');
+}
+
+.logo {
+	height: 180px;
+	width: auto;
+}
+
+.jumbotron {
+	background-color: rgba(255, 255, 255, 0);
+	text-align: center;
+	margin: 0px;
+	border: 0px;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.title {
+	font-family: 'CODE-Bold';
+	font-weight: bold;
+	color: #ffffff;
+	font-size: 8rem;
+}
+
+.card-container {
+	width: 70%;
+}
+
+.card-holder {
+	padding: 0px;
+	height: 100%;
+}
+
+.card-view {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: #242d36;
+}
+
+.card {
+	height: 350px;
+	width: 257px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.card-header {
+	text-align: center;
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+}
+
+.card-header span {
+	font-family: 'CODE-Bold';
+	font-size: 4rem;
+	letter-spacing: 5px;
+	font-weight: bold;
+	color: white;
+}
+
+.card:hover img {
+	max-height: 75%;
+	max-width: 75%;
+}
+
+/* FORTNITE */
+.card-fortnite {
+	background-image: url('../img/fortnite.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+/* LEAGUE */
+.card-league {
+	background-image: url('../img/league.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+/* DOTA */
+.card-dota {
+	background-image: url('../img/dota.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
